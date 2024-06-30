@@ -21,6 +21,7 @@ create:
 	cd /data/repo/rpm/pgsql/el8.x86_64 && createrepo_c . && repo2module -s stable . modules.yaml && modifyrepo_c --mdtype=modules modules.yaml repodata/
 	cd /data/repo/rpm/pgsql/el9.x86_64 && createrepo_c . && repo2module -s stable . modules.yaml && modifyrepo_c --mdtype=modules modules.yaml repodata/
 
+create-sv: pushd-sv repo-sv pulld-sv
 push-sv:
 	rsync -avc ./pgsql/ sv:/data/rpm/pgsql/
 pushd-sv:
@@ -31,5 +32,4 @@ pull-sv:
 	rsync -avc sv:/data/rpm/pgsql/ ./pgsql/
 pulld-sv:
 	rsync -avc --delete sv:/data/rpm/pgsql/ ./pgsql/
-
-.PHONY: b rebuild build create
+.PHONY: b rebuild build create create-sv push-sv pushd-sv repo-sv pull-sv pulld-sv
