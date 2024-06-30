@@ -23,13 +23,14 @@ create:
 
 create-sv: pushd-sv repo-sv pulld-sv
 push-sv:
-	rsync -avc ./pgsql/ sv:/data/rpm/pgsql/
+	rsync -avc ./ sv:/data/yum/
 pushd-sv:
-	rsync -avc --delete ./pgsql/ sv:/data/rpm/pgsql/
+	rsync -avc --delete ./ sv:/data/yum/
 repo-sv:
-	ssh sv 'cd /data/rpm && make'
+	ssh sv 'cd /data/yum && ./rebuild'
 pull-sv:
-	rsync -avc sv:/data/rpm/pgsql/ ./pgsql/
+	rsync -avc sv:/data/yum/ ./
 pulld-sv:
-	rsync -avc --delete sv:/data/rpm/pgsql/ ./pgsql/
+	rsync -avc --delete sv:/data/yum/ ./
+
 .PHONY: b rebuild build create create-sv push-sv pushd-sv repo-sv pull-sv pulld-sv

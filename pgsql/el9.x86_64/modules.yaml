@@ -27,32 +27,18 @@ data:
     everything:
       rpms:
       - apache-age_15
-      - apache-age_15-debuginfo
-      - apache-age_15-debugsource
       - apache-age_15-llvmjit
       - apache-age_16
-      - apache-age_16-debuginfo
-      - apache-age_16-debugsource
       - apache-age_16-llvmjit
       - duckdb_fdw_12
-      - duckdb_fdw_12-debuginfo
-      - duckdb_fdw_12-debugsource
       - duckdb_fdw_12-llvmjit
       - duckdb_fdw_13
-      - duckdb_fdw_13-debuginfo
-      - duckdb_fdw_13-debugsource
       - duckdb_fdw_13-llvmjit
       - duckdb_fdw_14
-      - duckdb_fdw_14-debuginfo
-      - duckdb_fdw_14-debugsource
       - duckdb_fdw_14-llvmjit
       - duckdb_fdw_15
-      - duckdb_fdw_15-debuginfo
-      - duckdb_fdw_15-debugsource
       - duckdb_fdw_15-llvmjit
       - duckdb_fdw_16
-      - duckdb_fdw_16-debuginfo
-      - duckdb_fdw_16-debugsource
       - duckdb_fdw_16-llvmjit
       - hydra_13
       - hydra_13-llvmjit
@@ -63,42 +49,27 @@ data:
       - hydra_16
       - hydra_16-llvmjit
       - imgsmlr_12
-      - imgsmlr_12-debuginfo
-      - imgsmlr_12-debugsource
       - imgsmlr_12-llvmjit
       - imgsmlr_13
-      - imgsmlr_13-debuginfo
-      - imgsmlr_13-debugsource
       - imgsmlr_13-llvmjit
       - imgsmlr_14
-      - imgsmlr_14-debuginfo
-      - imgsmlr_14-debugsource
       - imgsmlr_14-llvmjit
       - imgsmlr_15
-      - imgsmlr_15-debuginfo
-      - imgsmlr_15-debugsource
       - imgsmlr_15-llvmjit
+      - libarrow-s3
       - libduckdb
       - md5hash_12
-      - md5hash_12-debuginfo
-      - md5hash_12-debugsource
       - md5hash_12-llvmjit
       - md5hash_13
-      - md5hash_13-debuginfo
-      - md5hash_13-debugsource
       - md5hash_13-llvmjit
       - md5hash_14
-      - md5hash_14-debuginfo
-      - md5hash_14-debugsource
       - md5hash_14-llvmjit
       - md5hash_15
-      - md5hash_15-debuginfo
-      - md5hash_15-debugsource
       - md5hash_15-llvmjit
       - md5hash_16
-      - md5hash_16-debuginfo
-      - md5hash_16-debugsource
       - md5hash_16-llvmjit
+      - parquet_s3_fdw_16
+      - parquet_s3_fdw_16-llvmjit
       - pg_graphql_14
       - pg_graphql_15
       - pg_graphql_16
@@ -115,49 +86,24 @@ data:
       - pg_lakehouse_15
       - pg_lakehouse_16
       - pg_roaringbitmap_12
-      - pg_roaringbitmap_12-debuginfo
-      - pg_roaringbitmap_12-debugsource
       - pg_roaringbitmap_12-llvmjit
       - pg_roaringbitmap_13
-      - pg_roaringbitmap_13-debuginfo
-      - pg_roaringbitmap_13-debugsource
       - pg_roaringbitmap_13-llvmjit
       - pg_roaringbitmap_14
-      - pg_roaringbitmap_14-debuginfo
-      - pg_roaringbitmap_14-debugsource
       - pg_roaringbitmap_14-llvmjit
       - pg_roaringbitmap_15
-      - pg_roaringbitmap_15-debuginfo
-      - pg_roaringbitmap_15-debugsource
       - pg_roaringbitmap_15-llvmjit
       - pg_roaringbitmap_16
-      - pg_roaringbitmap_16-debuginfo
-      - pg_roaringbitmap_16-debugsource
       - pg_roaringbitmap_16-llvmjit
-      - pg_search_12
-      - pg_search_13
-      - pg_search_14
-      - pg_search_15
-      - pg_search_16
       - pg_similarity_12
-      - pg_similarity_12-debuginfo
-      - pg_similarity_12-debugsource
       - pg_similarity_12-llvmjit
       - pg_similarity_13
-      - pg_similarity_13-debuginfo
-      - pg_similarity_13-debugsource
       - pg_similarity_13-llvmjit
       - pg_similarity_14
-      - pg_similarity_14-debuginfo
-      - pg_similarity_14-debugsource
       - pg_similarity_14-llvmjit
       - pg_similarity_15
-      - pg_similarity_15-debuginfo
-      - pg_similarity_15-debugsource
       - pg_similarity_15-llvmjit
       - pg_tde_16
-      - pg_tde_16-debuginfo
-      - pg_tde_16-debugsource
       - pg_tde_16-llvmjit
       - pg_tiktoken_12
       - pg_tiktoken_13
@@ -165,24 +111,14 @@ data:
       - pg_tiktoken_15
       - pg_tiktoken_16
       - pg_tle_12
-      - pg_tle_12-debuginfo
-      - pg_tle_12-debugsource
       - pg_tle_12-llvmjit
       - pg_tle_13
-      - pg_tle_13-debuginfo
-      - pg_tle_13-debugsource
       - pg_tle_13-llvmjit
       - pg_tle_14
-      - pg_tle_14-debuginfo
-      - pg_tle_14-debugsource
       - pg_tle_14-llvmjit
       - pg_tle_15
-      - pg_tle_15-debuginfo
-      - pg_tle_15-debugsource
       - pg_tle_15-llvmjit
       - pg_tle_16
-      - pg_tle_16-debuginfo
-      - pg_tle_16-debugsource
       - pg_tle_16-llvmjit
       - pgdd_12
       - pgdd_13
@@ -219,9 +155,10 @@ data:
       - plv8_15-llvmjit
       - plv8_16
       - plv8_16-llvmjit
+      - redis
+      - redis-devel
+      - redis-doc
       - scws
-      - scws-debuginfo
-      - scws-debugsource
       - vault_12
       - vault_13
       - vault_14
@@ -231,54 +168,30 @@ data:
       - wrappers_15
       - wrappers_16
       - zhparser_12
-      - zhparser_12-debuginfo
-      - zhparser_12-debugsource
       - zhparser_12-llvmjit
       - zhparser_13
-      - zhparser_13-debuginfo
-      - zhparser_13-debugsource
       - zhparser_13-llvmjit
       - zhparser_14
-      - zhparser_14-debuginfo
-      - zhparser_14-debugsource
       - zhparser_14-llvmjit
       - zhparser_15
-      - zhparser_15-debuginfo
-      - zhparser_15-debugsource
       - zhparser_15-llvmjit
       - zhparser_16
-      - zhparser_16-debuginfo
-      - zhparser_16-debugsource
       - zhparser_16-llvmjit
   api:
     rpms:
     - apache-age_15
-    - apache-age_15-debuginfo
-    - apache-age_15-debugsource
     - apache-age_15-llvmjit
     - apache-age_16
-    - apache-age_16-debuginfo
-    - apache-age_16-debugsource
     - apache-age_16-llvmjit
     - duckdb_fdw_12
-    - duckdb_fdw_12-debuginfo
-    - duckdb_fdw_12-debugsource
     - duckdb_fdw_12-llvmjit
     - duckdb_fdw_13
-    - duckdb_fdw_13-debuginfo
-    - duckdb_fdw_13-debugsource
     - duckdb_fdw_13-llvmjit
     - duckdb_fdw_14
-    - duckdb_fdw_14-debuginfo
-    - duckdb_fdw_14-debugsource
     - duckdb_fdw_14-llvmjit
     - duckdb_fdw_15
-    - duckdb_fdw_15-debuginfo
-    - duckdb_fdw_15-debugsource
     - duckdb_fdw_15-llvmjit
     - duckdb_fdw_16
-    - duckdb_fdw_16-debuginfo
-    - duckdb_fdw_16-debugsource
     - duckdb_fdw_16-llvmjit
     - hydra_13
     - hydra_13-llvmjit
@@ -289,42 +202,27 @@ data:
     - hydra_16
     - hydra_16-llvmjit
     - imgsmlr_12
-    - imgsmlr_12-debuginfo
-    - imgsmlr_12-debugsource
     - imgsmlr_12-llvmjit
     - imgsmlr_13
-    - imgsmlr_13-debuginfo
-    - imgsmlr_13-debugsource
     - imgsmlr_13-llvmjit
     - imgsmlr_14
-    - imgsmlr_14-debuginfo
-    - imgsmlr_14-debugsource
     - imgsmlr_14-llvmjit
     - imgsmlr_15
-    - imgsmlr_15-debuginfo
-    - imgsmlr_15-debugsource
     - imgsmlr_15-llvmjit
+    - libarrow-s3
     - libduckdb
     - md5hash_12
-    - md5hash_12-debuginfo
-    - md5hash_12-debugsource
     - md5hash_12-llvmjit
     - md5hash_13
-    - md5hash_13-debuginfo
-    - md5hash_13-debugsource
     - md5hash_13-llvmjit
     - md5hash_14
-    - md5hash_14-debuginfo
-    - md5hash_14-debugsource
     - md5hash_14-llvmjit
     - md5hash_15
-    - md5hash_15-debuginfo
-    - md5hash_15-debugsource
     - md5hash_15-llvmjit
     - md5hash_16
-    - md5hash_16-debuginfo
-    - md5hash_16-debugsource
     - md5hash_16-llvmjit
+    - parquet_s3_fdw_16
+    - parquet_s3_fdw_16-llvmjit
     - pg_graphql_14
     - pg_graphql_15
     - pg_graphql_16
@@ -341,49 +239,24 @@ data:
     - pg_lakehouse_15
     - pg_lakehouse_16
     - pg_roaringbitmap_12
-    - pg_roaringbitmap_12-debuginfo
-    - pg_roaringbitmap_12-debugsource
     - pg_roaringbitmap_12-llvmjit
     - pg_roaringbitmap_13
-    - pg_roaringbitmap_13-debuginfo
-    - pg_roaringbitmap_13-debugsource
     - pg_roaringbitmap_13-llvmjit
     - pg_roaringbitmap_14
-    - pg_roaringbitmap_14-debuginfo
-    - pg_roaringbitmap_14-debugsource
     - pg_roaringbitmap_14-llvmjit
     - pg_roaringbitmap_15
-    - pg_roaringbitmap_15-debuginfo
-    - pg_roaringbitmap_15-debugsource
     - pg_roaringbitmap_15-llvmjit
     - pg_roaringbitmap_16
-    - pg_roaringbitmap_16-debuginfo
-    - pg_roaringbitmap_16-debugsource
     - pg_roaringbitmap_16-llvmjit
-    - pg_search_12
-    - pg_search_13
-    - pg_search_14
-    - pg_search_15
-    - pg_search_16
     - pg_similarity_12
-    - pg_similarity_12-debuginfo
-    - pg_similarity_12-debugsource
     - pg_similarity_12-llvmjit
     - pg_similarity_13
-    - pg_similarity_13-debuginfo
-    - pg_similarity_13-debugsource
     - pg_similarity_13-llvmjit
     - pg_similarity_14
-    - pg_similarity_14-debuginfo
-    - pg_similarity_14-debugsource
     - pg_similarity_14-llvmjit
     - pg_similarity_15
-    - pg_similarity_15-debuginfo
-    - pg_similarity_15-debugsource
     - pg_similarity_15-llvmjit
     - pg_tde_16
-    - pg_tde_16-debuginfo
-    - pg_tde_16-debugsource
     - pg_tde_16-llvmjit
     - pg_tiktoken_12
     - pg_tiktoken_13
@@ -391,24 +264,14 @@ data:
     - pg_tiktoken_15
     - pg_tiktoken_16
     - pg_tle_12
-    - pg_tle_12-debuginfo
-    - pg_tle_12-debugsource
     - pg_tle_12-llvmjit
     - pg_tle_13
-    - pg_tle_13-debuginfo
-    - pg_tle_13-debugsource
     - pg_tle_13-llvmjit
     - pg_tle_14
-    - pg_tle_14-debuginfo
-    - pg_tle_14-debugsource
     - pg_tle_14-llvmjit
     - pg_tle_15
-    - pg_tle_15-debuginfo
-    - pg_tle_15-debugsource
     - pg_tle_15-llvmjit
     - pg_tle_16
-    - pg_tle_16-debuginfo
-    - pg_tle_16-debugsource
     - pg_tle_16-llvmjit
     - pgdd_12
     - pgdd_13
@@ -445,9 +308,10 @@ data:
     - plv8_15-llvmjit
     - plv8_16
     - plv8_16-llvmjit
+    - redis
+    - redis-devel
+    - redis-doc
     - scws
-    - scws-debuginfo
-    - scws-debugsource
     - vault_12
     - vault_13
     - vault_14
@@ -457,24 +321,14 @@ data:
     - wrappers_15
     - wrappers_16
     - zhparser_12
-    - zhparser_12-debuginfo
-    - zhparser_12-debugsource
     - zhparser_12-llvmjit
     - zhparser_13
-    - zhparser_13-debuginfo
-    - zhparser_13-debugsource
     - zhparser_13-llvmjit
     - zhparser_14
-    - zhparser_14-debuginfo
-    - zhparser_14-debugsource
     - zhparser_14-llvmjit
     - zhparser_15
-    - zhparser_15-debuginfo
-    - zhparser_15-debugsource
     - zhparser_15-llvmjit
     - zhparser_16
-    - zhparser_16-debuginfo
-    - zhparser_16-debugsource
     - zhparser_16-llvmjit
   components:
     rpms:
@@ -508,6 +362,8 @@ data:
         rationale: Present in the repository
       imgsmlr_15:
         rationale: Present in the repository
+      libarrow-s3:
+        rationale: Present in the repository
       libduckdb:
         rationale: Present in the repository
       md5hash_12:
@@ -519,6 +375,8 @@ data:
       md5hash_15:
         rationale: Present in the repository
       md5hash_16:
+        rationale: Present in the repository
+      parquet_s3_fdw_16:
         rationale: Present in the repository
       pg_graphql_14:
         rationale: Present in the repository
@@ -559,16 +417,6 @@ data:
       pg_roaringbitmap_15:
         rationale: Present in the repository
       pg_roaringbitmap_16:
-        rationale: Present in the repository
-      pg_search_12:
-        rationale: Present in the repository
-      pg_search_13:
-        rationale: Present in the repository
-      pg_search_14:
-        rationale: Present in the repository
-      pg_search_15:
-        rationale: Present in the repository
-      pg_search_16:
         rationale: Present in the repository
       pg_similarity_12:
         rationale: Present in the repository
@@ -660,6 +508,8 @@ data:
         rationale: Present in the repository
       plv8_16:
         rationale: Present in the repository
+      redis:
+        rationale: Present in the repository
       scws:
         rationale: Present in the repository
       vault_12:
@@ -691,32 +541,18 @@ data:
   artifacts:
     rpms:
     - apache-age_15-0:1.4.0-1PIGSTY.el9.x86_64
-    - apache-age_15-debuginfo-0:1.4.0-1PIGSTY.el9.x86_64
-    - apache-age_15-debugsource-0:1.4.0-1PIGSTY.el9.x86_64
     - apache-age_15-llvmjit-0:1.4.0-1PIGSTY.el9.x86_64
     - apache-age_16-0:1.5.0-1PIGSTY.el9.x86_64
-    - apache-age_16-debuginfo-0:1.5.0-1PIGSTY.el9.x86_64
-    - apache-age_16-debugsource-0:1.5.0-1PIGSTY.el9.x86_64
     - apache-age_16-llvmjit-0:1.5.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_12-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_12-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_12-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_12-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_13-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_13-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_13-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_13-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_14-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_14-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_14-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_14-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_15-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_15-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_15-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_15-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_16-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_16-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - duckdb_fdw_16-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - duckdb_fdw_16-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - hydra_13-0:1.1.2-1PIGSTY.el9.x86_64
     - hydra_13-llvmjit-0:1.1.2-1PIGSTY.el9.x86_64
@@ -727,42 +563,27 @@ data:
     - hydra_16-0:1.1.2-1PIGSTY.el9.x86_64
     - hydra_16-llvmjit-0:1.1.2-1PIGSTY.el9.x86_64
     - imgsmlr_12-0:1.0.0-1PIGSTY.el9.x86_64
-    - imgsmlr_12-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - imgsmlr_12-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - imgsmlr_12-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - imgsmlr_13-0:1.0.0-1PIGSTY.el9.x86_64
-    - imgsmlr_13-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - imgsmlr_13-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - imgsmlr_13-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - imgsmlr_14-0:1.0.0-1PIGSTY.el9.x86_64
-    - imgsmlr_14-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - imgsmlr_14-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - imgsmlr_14-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - imgsmlr_15-0:1.0.0-1PIGSTY.el9.x86_64
-    - imgsmlr_15-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - imgsmlr_15-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - imgsmlr_15-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
+    - libarrow-s3-0:17.0.0-1PIGSTY.el9.x86_64
     - libduckdb-0:1.0.0-1PIGSTY.el9.x86_64
     - md5hash_12-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_12-debuginfo-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_12-debugsource-0:1.0.1-1PIGSTY.el9.x86_64
     - md5hash_12-llvmjit-0:1.0.1-1PIGSTY.el9.x86_64
     - md5hash_13-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_13-debuginfo-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_13-debugsource-0:1.0.1-1PIGSTY.el9.x86_64
     - md5hash_13-llvmjit-0:1.0.1-1PIGSTY.el9.x86_64
     - md5hash_14-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_14-debuginfo-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_14-debugsource-0:1.0.1-1PIGSTY.el9.x86_64
     - md5hash_14-llvmjit-0:1.0.1-1PIGSTY.el9.x86_64
     - md5hash_15-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_15-debuginfo-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_15-debugsource-0:1.0.1-1PIGSTY.el9.x86_64
     - md5hash_15-llvmjit-0:1.0.1-1PIGSTY.el9.x86_64
     - md5hash_16-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_16-debuginfo-0:1.0.1-1PIGSTY.el9.x86_64
-    - md5hash_16-debugsource-0:1.0.1-1PIGSTY.el9.x86_64
     - md5hash_16-llvmjit-0:1.0.1-1PIGSTY.el9.x86_64
+    - parquet_s3_fdw_16-0:1.1.0-1PIGSTY.el9.x86_64
+    - parquet_s3_fdw_16-llvmjit-0:1.1.0-1PIGSTY.el9.x86_64
     - pg_graphql_14-0:1.5.6-1PIGSTY.el9.x86_64
     - pg_graphql_15-0:1.5.6-1PIGSTY.el9.x86_64
     - pg_graphql_16-0:1.5.6-1PIGSTY.el9.x86_64
@@ -781,51 +602,24 @@ data:
     - pg_lakehouse_16-0:0.8.0-1PIGSTY.el9.x86_64
     - pg_lakehouse_16-0:0.8.1-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_12-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_12-debuginfo-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_12-debugsource-0:0.5.4-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_12-llvmjit-0:0.5.4-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_13-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_13-debuginfo-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_13-debugsource-0:0.5.4-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_13-llvmjit-0:0.5.4-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_14-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_14-debuginfo-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_14-debugsource-0:0.5.4-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_14-llvmjit-0:0.5.4-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_15-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_15-debuginfo-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_15-debugsource-0:0.5.4-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_15-llvmjit-0:0.5.4-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_16-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_16-debuginfo-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_roaringbitmap_16-debugsource-0:0.5.4-1PIGSTY.el9.x86_64
     - pg_roaringbitmap_16-llvmjit-0:0.5.4-1PIGSTY.el9.x86_64
-    - pg_search_12-0:0.8.1-1PIGSTY.el9.x86_64
-    - pg_search_13-0:0.8.1-1PIGSTY.el9.x86_64
-    - pg_search_14-0:0.8.1-1PIGSTY.el9.x86_64
-    - pg_search_15-0:0.8.0-1PIGSTY.el9.x86_64
-    - pg_search_15-0:0.8.1-1PIGSTY.el9.x86_64
-    - pg_search_16-0:0.8.0-1PIGSTY.el9.x86_64
-    - pg_search_16-0:0.8.1-1PIGSTY.el9.x86_64
     - pg_similarity_12-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_similarity_12-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_similarity_12-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_similarity_12-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_similarity_13-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_similarity_13-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_similarity_13-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_similarity_13-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_similarity_14-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_similarity_14-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_similarity_14-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_similarity_14-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_similarity_15-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_similarity_15-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_similarity_15-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_similarity_15-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_tde_16-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_tde_16-debuginfo-0:1.0.0-1PIGSTY.el9.x86_64
-    - pg_tde_16-debugsource-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_tde_16-llvmjit-0:1.0.0-1PIGSTY.el9.x86_64
     - pg_tiktoken_12-0:0.0.1-1PIGSTY.el9.x86_64
     - pg_tiktoken_13-0:0.0.1-1PIGSTY.el9.x86_64
@@ -833,24 +627,14 @@ data:
     - pg_tiktoken_15-0:0.0.1-1PIGSTY.el9.x86_64
     - pg_tiktoken_16-0:0.0.1-1PIGSTY.el9.x86_64
     - pg_tle_12-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_12-debuginfo-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_12-debugsource-0:1.4.0-1PIGSTY.el9.x86_64
     - pg_tle_12-llvmjit-0:1.4.0-1PIGSTY.el9.x86_64
     - pg_tle_13-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_13-debuginfo-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_13-debugsource-0:1.4.0-1PIGSTY.el9.x86_64
     - pg_tle_13-llvmjit-0:1.4.0-1PIGSTY.el9.x86_64
     - pg_tle_14-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_14-debuginfo-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_14-debugsource-0:1.4.0-1PIGSTY.el9.x86_64
     - pg_tle_14-llvmjit-0:1.4.0-1PIGSTY.el9.x86_64
     - pg_tle_15-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_15-debuginfo-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_15-debugsource-0:1.4.0-1PIGSTY.el9.x86_64
     - pg_tle_15-llvmjit-0:1.4.0-1PIGSTY.el9.x86_64
     - pg_tle_16-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_16-debuginfo-0:1.4.0-1PIGSTY.el9.x86_64
-    - pg_tle_16-debugsource-0:1.4.0-1PIGSTY.el9.x86_64
     - pg_tle_16-llvmjit-0:1.4.0-1PIGSTY.el9.x86_64
     - pgdd_12-0:0.5.2-1PIGSTY.el9.x86_64
     - pgdd_13-0:0.5.2-1PIGSTY.el9.x86_64
@@ -887,9 +671,10 @@ data:
     - plv8_15-llvmjit-0:3.2.2-1PIGSTY.el9.x86_64
     - plv8_16-0:3.2.2-1PIGSTY.el9.x86_64
     - plv8_16-llvmjit-0:3.2.2-1PIGSTY.el9.x86_64
+    - redis-0:7.2.5-1.el9.remi.x86_64
+    - redis-devel-0:7.2.5-1.el9.remi.x86_64
+    - redis-doc-0:7.2.5-1.el9.remi.noarch
     - scws-0:1.2.3-1PIGSTY.el9.x86_64
-    - scws-debuginfo-0:1.2.3-1PIGSTY.el9.x86_64
-    - scws-debugsource-0:1.2.3-1PIGSTY.el9.x86_64
     - vault_12-0:0.2.9-1PIGSTY.el9.x86_64
     - vault_13-0:0.2.9-1PIGSTY.el9.x86_64
     - vault_14-0:0.2.9-1PIGSTY.el9.x86_64
@@ -899,23 +684,13 @@ data:
     - wrappers_15-0:0.3.1-1PIGSTY.el9.x86_64
     - wrappers_16-0:0.3.1-1PIGSTY.el9.x86_64
     - zhparser_12-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_12-debuginfo-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_12-debugsource-0:2.2-1PIGSTY.el9.x86_64
     - zhparser_12-llvmjit-0:2.2-1PIGSTY.el9.x86_64
     - zhparser_13-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_13-debuginfo-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_13-debugsource-0:2.2-1PIGSTY.el9.x86_64
     - zhparser_13-llvmjit-0:2.2-1PIGSTY.el9.x86_64
     - zhparser_14-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_14-debuginfo-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_14-debugsource-0:2.2-1PIGSTY.el9.x86_64
     - zhparser_14-llvmjit-0:2.2-1PIGSTY.el9.x86_64
     - zhparser_15-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_15-debuginfo-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_15-debugsource-0:2.2-1PIGSTY.el9.x86_64
     - zhparser_15-llvmjit-0:2.2-1PIGSTY.el9.x86_64
     - zhparser_16-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_16-debuginfo-0:2.2-1PIGSTY.el9.x86_64
-    - zhparser_16-debugsource-0:2.2-1PIGSTY.el9.x86_64
     - zhparser_16-llvmjit-0:2.2-1PIGSTY.el9.x86_64
 ...
